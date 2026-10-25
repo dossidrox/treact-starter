@@ -127,10 +127,11 @@ HEADER
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+  position: relative;
 }
 
 .header__email--input {
+  height: 100%;
   width: 100%;
   border: 2px solid rgb(229 231 235);
   color: rgb(36 62 99);
@@ -155,7 +156,9 @@ HEADER
   font-size: 16px;
   font-weight: 700;
   z-index: 2;
-  
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 
@@ -172,3 +175,10 @@ HEADER
   margin-top: 16px;
   opacity: 0.7;
 }
+
+.header__img--wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 40%);
+}
+
