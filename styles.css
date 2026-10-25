@@ -14,6 +14,24 @@ a:hover {
   text-decoration: underline;
 }
 
+.container {
+  padding: 96px 0;
+}
+
+.row {
+  display: flex;
+  align-items: flex-end;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1a202c;
+  line-height: 1.25;
+}
+  
+.purple {
+  color: #6415ff;
+}
 
 /* NAVIGATION */
 
@@ -82,3 +100,75 @@ img {
   border-radius: 900px;
 }
 
+.nav__link--signup:hover {
+  text-decoration: none;
+}
+
+/*
+
+HEADER 
+
+*/
+
+.header__title {
+  width: 40%;
+}
+
+.header__title--para {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 32px 0;
+}
+
+.header__email {
+  width: 100%;
+  max-width: 440px;
+  height: 68px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.header__email--input {
+  width: 100%;
+  border: 2px solid rgb(229 231 235);
+  color: rgb(36 62 99);
+  border-radius: 500px;
+  font-size: 16px;
+  font-weight: 500;
+  top: 0;  
+  bottom: 0;
+  z-index: 1;
+  padding: 20px 192px 20px 32px;
+  
+}
+
+.header__email--btn {
+  margin: 8px;
+  width: 160px;
+  height: calc(100% - 16px);
+  border-radius: 500px;
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  z-index: 2;
+  
+}
+
+
+.header__customers {
+  margin-top: 80px ;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 500;
+
+}
+
+.header__customers--img {
+  padding-right: 64px;
+  margin-top: 16px;
+  opacity: 0.7;
+}
