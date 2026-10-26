@@ -437,3 +437,122 @@ STEPS
   line-height: 2;
 }
 
+/* 
+
+VALUE
+
+*/
+
+.row__values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.values__box {
+  width: 50%;
+  padding: 32px 64px 32px 0;
+}
+
+.section__title--value {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(36 62 99);
+  margin: 16px 0;
+  letter-spacing: 0.03em;
+}
+
+.section__para--value {
+  text-align: left;
+  font-size: 18px;
+  color: #7c8ba1;
+  line-height: 1.5;
+
+}
+
+.values__list {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  flex-direction: row;
+  max-width: none;
+  
+}
+
+.value {
+  margin-top: 32px;
+  margin-right: 32px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.value__title {
+  display: flex;
+  align-items: center;
+}
+
+.value__img--wrapper {
+  display: flex;
+  padding: 20px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  
+}
+
+.value__img {
+  width: 20px;
+  height: 20px;
+  
+}
+
+.value__name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #243e63;
+}
+
+.value__para {
+  margin-top: 16px;
+  line-height: 1.5;
+  color: #718096;
+}
+
+.vimg1 {
+  background-color: #9ae6b4;
+  
+}
+
+.vimg2 {
+  background-color: #feb2b2;
+}
+
+.value1 {
+  stroke: rgb(39 103 73);
+  stroke-width: 2;
+  fill: none;
+  
+}
+
+.value2 {
+  stroke: rgb(155 44 44);
+  stroke-width: 2;
+  fill: none;
+}
+
+.values__btn {
+  margin-top: 48px;
+}
+
+.values__img {
+  width: 50%;
+}
+
