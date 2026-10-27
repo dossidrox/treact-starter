@@ -884,6 +884,10 @@ TESTIMONIAL
   align-items: center;
 }
 
+.testimonial__btn svg {
+  width: 20px;
+}
+
 .test__btn {
   display: flex;
   justify-content: center;
@@ -905,3 +909,4 @@ TESTIMONIAL
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+
