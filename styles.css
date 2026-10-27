@@ -594,6 +594,7 @@ PRICING
   flex-direction: column;
   border-radius: 0.5rem;
   color: rgb(26 32 44 );
+  background-color: rgb(255 255 255 );
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -759,5 +760,16 @@ PRICING
   height: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+}
+
+.plans__blob {
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
 }
 
