@@ -556,3 +556,208 @@ VALUE
   width: 50%;
 }
 
+/* 
+
+PRICING
+
+*/
+
+.row__pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__title--pricing {
+  text-align: center;
+}
+
+.section__para--pricing {
+  text-align: center;
+  max-width: 576px;
+}
+
+.plans {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.plan {
+  display: flex;
+  position: relative;
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 24rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  color: rgb(26 32 44 );
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  margin-right: 2rem;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.plan__strip--pers {  
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  
+}
+
+.plan__strip--pers {
+  background: linear-gradient(115deg, rgb(56 178 172) 0%, rgb(129 230 217) 100%);
+  color: #f7fafc;
+}
+
+.plan__top {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(229 231 235);
+  border-bottom: 1px solid rgb(229 231 235);
+  padding: 2rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  line-height: 1.5;
+}
+
+.plan__plan {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.plan__price {
+  font-size: 48px;
+  margin: 4px 0;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.plan__time {
+  color: #a0aec0;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.plan__mid {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(229 231 235);
+  border-bottom: 1px solid rgb(229 231 235);
+  padding: 2rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  line-height: 1.5;
+}
+
+.plan__market {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03;
+}
+
+.plan__feature {
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.plan__bot {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.plan__btn--pers {
+  color: #f7fafc;
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  max-width: none;
+  font-size: 0.9rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.plan_biz {
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__plan--biz,
+.plan__price--biz,
+.plan__time--biz,
+.plan__market--biz,
+.plan__feature--biz {
+  color: #f7fafc;
+}
+
+.plan__btn--biz {
+  color: #6415ff;
+  background-color: #f7fafc;
+  max-width: none;
+  font-size: 0.9rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.plan__btn--ent {
+  color: #f7fafc;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  max-width: none;
+  font-size: 0.9rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.plan__strip--ent {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  color: #f7fafc;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
