@@ -773,3 +773,135 @@ PRICING
   transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
 }
 
+/* 
+
+TESTIMONIAL
+
+*/
+
+.container__test {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.row__test {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.test__img {
+  width: 40%;
+}
+
+.test__box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+  width: calc(100% - 40%);
+}
+
+.section__title--test {
+  font-size: 48px;
+  margin: 16px 0;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  text-align: left;
+}
+
+.section__para--test {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.testimonial {
+  margin-top: 40px;
+}
+
+.testimonial__rating {
+  margin-right: 2px;
+  margin-top: 4px;
+  color: rgba(246 173 85);
+}
+
+.testimonial__info {
+  font-size: 20px;
+  margin-top: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #4a5568;
+}
+
+.testimonial__para {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(74 85 104);
+}
+
+.test__bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.test__profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.profile__box {
+  margin-left: 24px;
+}
+
+.test__name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #4a5568;
+}
+
+.test__role {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #7c8ba1;
+}
+
+.testimonial__btn {
+  display: flex;
+  align-items: center;
+}
+
+.test__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 0 12px;
+  background: #edf2f7;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.divider {
+  height: 20px;
+  width: 0.5px;
+  background-color: #edf2f7;
+  border-right-width: 1px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
